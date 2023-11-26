@@ -36,3 +36,44 @@
     transform: rotate(360deg);
   }
 }
+
+.app {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+.resume {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.personal-info h2 {
+  color: #007bff;
+}
+
+.education h3,
+.work-experience h3,
+.skills h3 {
+  color: #28a745;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+hr {
+  border: 1px solid #ddd;
+}
